@@ -1,0 +1,127 @@
+/* App.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .submitarea {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .submitarea input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .submitarea input:focus {
+    border-color: #007bff;
+  }
+  
+  .submitarea button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitarea button:hover {
+    background-color: #0056b3;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tasks {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .tasks:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tasks input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .tasks span {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edbtn, .dlbtn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edbtn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .edbtn:hover {
+    background-color: #218838;
+  }
+  
+  .dlbtn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .dlbtn:hover {
+    background-color: #c82333;
+  }
+  
